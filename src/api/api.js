@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:8086";
+const API_BASE = "https://notification-backend-3.onrender.com";
 
 export const sendOTP = (countryCode, phone) => {
   return axios.post(`${API_BASE}/otp`, {

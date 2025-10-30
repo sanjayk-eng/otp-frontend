@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/notification-frontend/', // 👈 GitHub Pages repo name
+  base: '/', // 👈 GitHub Pages repo name
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
